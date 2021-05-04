@@ -1,11 +1,11 @@
 <template>
   <header class="pt-2 row justify-content-center align-items-center">
-    <div class="col text-center">
-      <h1 class="basecamp">_init(DEV) <small>BASECAMP</small></h1>
-    </div>
     <div class="col">
-      <h3 class="date">14 a 21 <small>JUNHO</small></h3>
+      <h1 class="basecamp">_init(DEV) <small>BASECAMP 1.0.0</small></h1>
     </div>
+    <!-- <div class="col">
+      <h3 class="date">14 a 21 <small>JUNHO</small></h3>
+    </div> -->
   </header>
 </template>
 
@@ -17,19 +17,3 @@ export default {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>

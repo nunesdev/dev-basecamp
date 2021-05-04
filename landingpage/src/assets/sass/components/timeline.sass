@@ -1,0 +1,93 @@
+
+.timeline-wrapper
+  position: fixed
+  top: 10px
+  right: 10px
+  padding-left: 80px
+  min-width: 400px
+  font-size: 2.2em
+  .date
+    position: absolute
+    left: -110px
+  .live
+    background-color: #e45a5a
+    width: 15px
+    height: 15px
+    display: inline-flex
+    border-radius: 50%
+    margin-right: 5px
+  .step
+    position: relative
+    padding-left: 45px
+    list-style: none
+    &::before
+      display: inline-block
+      content: ''
+      position: absolute
+      top: -25px
+      left: 15px
+      width: 10px
+      height: 100%
+      border-left: 2px solid #CCC
+
+  .step-item
+    position: relative
+    counter-increment: list
+    //padding-left: 10px
+    cursor: pointer
+    .highlight
+      background-color: #6f2ea0
+    p
+      font-size: 16px
+      margin-bottom: 0
+
+    // &:hover
+    //   background-color: $white
+    //   color: $lightgray
+    //   a
+    //    color: $lightgreen
+    //   .date
+    //     color: $white
+
+    &:not(:last-child)
+      margin-bottom: 30px
+
+    &::before
+      display: inline-block
+      content: ''
+      position: absolute
+      left: -30px
+      height: 100%
+      width: 10px
+
+    &::after
+      content: ''
+      display: inline-block
+      position: absolute
+      top: 0
+      left: -35px
+      width: 12px
+      height: 12px
+      border: 2px solid #CCC
+      border-radius: 50%
+      background-color: #FFF
+
+    &.is-done
+      &::before
+        border-left: 2px solid #01c68d
+
+      &::after
+        /*content: "?";
+        font-size: 10px
+        color: #FFF
+        text-align: center
+        border: 2px solid #01c68d
+        background-color: #01c68d
+
+  .step strong
+    display: block
+
+@media screen and ( max-width: 728px  )
+  .timeline-wrapper
+    display: none
+    
