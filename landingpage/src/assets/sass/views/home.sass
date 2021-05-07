@@ -1,11 +1,51 @@
+@import './home/forwho'
+@import './home/whatwillyoulearning'
+@import './home/whoami'
+
 .content
-  height: 90vh
+  height: 100vh
+  padding: 40px 0
+  .hero
+    padding-left: calc((100% - 1120px) / 2)
+    padding-right: calc((100% - 1120px) / 2)
+    section
+      background: white
+      padding: 6.4rem 7.6rem 4.8rem 4.8rem
+      box-shadow: rgb(30 36 52 / 10%) 0px 32px 64px
+      border-radius: 6px
+      background-image: url('/img/dots-boot.png')
+      background-repeat: no-repeat
+      h1
+        font-size: 6.8em
+        font-weight: 700
   .title
-    font-size: 5.5em
+    font-size: 6.2em
+    font-weight: 700
   .subtitle
     font-size: 2.8em
     padding-top: 1em
-
+  .call-to-action
+    margin-top: 20px
+    padding: 20px 100px
+    background-color: $white
+    border-color: #5659db
+    color: #5659db
+    font-weight: 800
+    font-size: 18px
+    &:hover
+      background-color: #5659db
+      color: $white
+  p 
+    font-size: 18px
   .boxes
     padding-top: 40px
     color: grey
+    .card
+      min-height: 140px
+      margin-bottom: 20px
+      justify-content: center
+      h5
+        font-size: 1.8em
+        font-weight: 600
+      p
+        font-size: 16px
