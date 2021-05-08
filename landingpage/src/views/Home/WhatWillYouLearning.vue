@@ -1,5 +1,7 @@
 <template>
-  <section class="content pt-5 whatwillyoulearning">
+  <section class="content pt-5 whatwillyoulearning" data-aos="fade-left"
+              data-aos-offset="15"
+              data-aos-delay="850">
     <div class="title">
       O que você vai aprender
     </div>
@@ -14,7 +16,7 @@
     </div>
     <hr>
     <p>
-      Você usará ferramentas e métodologias que é utilizada na maioria das empresas de tecnologia,<br/> <span class="text-green b">SLACK</span> para se comunicar, 
+      Você usará ferramentas e métodologias que são utilizadas na maioria das empresas de tecnologia,<br/> <span class="text-green b">SLACK</span> para se comunicar, 
       <span class="text-green b">KANBAN</span> que é um framework
       para <span class="text-green b">gestão ágil</span>, que visa otimizar o trabalho.
     </p>

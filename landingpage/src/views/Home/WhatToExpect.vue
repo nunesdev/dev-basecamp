@@ -1,5 +1,7 @@
 <template>
-  <section class="content pt-5">
+  <section class="content pt-5" data-aos="fade-left"
+              data-aos-offset="15"
+              data-aos-delay="650">
     <div class="title">
       O que esperar do Basecamp?
     </div>
@@ -13,11 +15,16 @@
             <div class="col-4">
               <div class="card">
                 <div class="row g-0 align-items-center">
-                  <div class="col-md-4 text-center">
+                  <div class="col-md-4 text-center" data-aos="fade-left"
+              data-aos-offset="15"
+              data-aos-delay="550">
                     <img src="/img/live.png" width="64" class="ml-2">
                   </div>
                   <div class="col-md-8">
-                    <div class="card-body">
+                    <div class="card-body" 
+                    data-aos="fade-up"
+                    data-aos-offset="15"
+                    data-aos-delay="550">
                       <h5 class="card-title">7 dias de pura imersão</h5>
                       <p>Ao vivo no youtube</p>
                     </div>
@@ -35,11 +42,15 @@
             <div class="col-4">
               <div class="card">
                 <div class="row g-0 align-items-center">
-                  <div class="col-md-4 text-center">
+                  <div class="col-md-4 text-center" data-aos="fade-left"
+              data-aos-offset="15"
+              data-aos-delay="650">
                     <img src="/img/chat.png" width="64" class="ml-2">
                   </div>
                   <div class="col-md-8">
-                    <div class="card-body">
+                    <div class="card-body" data-aos="fade-up"
+              data-aos-offset="15"
+              data-aos-delay="650">
                       <h5 class="card-title">Canal aberto para tirar suas dúvidas</h5>
                       <p>Telegram / Slack</p>
                     </div>
@@ -51,11 +62,15 @@
             <div class="col-4">
               <div class="card">
                 <div class="row g-0 align-items-center">
-                  <div class="col-md-4 text-center">
+                  <div class="col-md-4 text-center" data-aos="fade-left"
+              data-aos-offset="15"
+              data-aos-delay="750">
                     <img src="/img/blogger.png" width="64" class="ml-2">
                   </div>
                   <div class="col-md-8">
-                    <div class="card-body">
+                    <div class="card-body" data-aos="fade-up"
+              data-aos-offset="15"
+              data-aos-delay="750">
                       <h5 class="card-title">Conteúdo exclusivo</h5>
                       <p>vídeos, dicas e desafios</p>
                     </div>
@@ -67,11 +82,15 @@
             <div class="col-4">
               <div class="card">
                 <div class="row g-0 align-items-center">
-                  <div class="col-md-4 text-center">
+                  <div class="col-md-4 text-center" data-aos="fade-left"
+              data-aos-offset="15"
+              data-aos-delay="850">
                     <img src="/img/certificado-digital.png" width="64" class="ml-2">
                   </div>
                   <div class="col-md-8">
-                    <div class="card-body">
+                    <div class="card-body" data-aos="fade-up"
+              data-aos-offset="15"
+              data-aos-delay="850">
                       <h5 class="card-title">Um certificado digital</h5>
                       <p>após a conclusão e avaliação</p>
                     </div>
@@ -82,11 +101,15 @@
             <div class="col-4">
               <div class="card">
                 <div class="row g-0 align-items-center">
-                  <div class="col-md-4 text-center">
+                  <div class="col-md-4 text-center" data-aos="fade-left"
+              data-aos-offset="15"
+              data-aos-delay="950">
                     <img src="/img/rocket.png" width="64" class="ml-2">
                   </div>
                   <div class="col-md-8">
-                    <div class="card-body">
+                    <div class="card-body" data-aos="fade-up"
+              data-aos-offset="15"
+              data-aos-delay="950">
                       <h5 class="card-title">#Continuidade</h5>
                       <p>Mais 2 Basecamps ao longo do ano, do zero ao junior!</p>
                     </div>
@@ -97,11 +120,15 @@
             <div class="col-4">
               <div class="card">
                 <div class="row g-0 align-items-center">
-                  <div class="col-md-4 text-center">
+                  <div class="col-md-4 text-center" data-aos="fade-left"
+              data-aos-offset="15"
+              data-aos-delay="1050">
                     <img src="/img/mentor.png" width="64" class="ml-2">
                   </div>
                   <div class="col-md-8">
-                    <div class="card-body">
+                    <div class="card-body" data-aos="fade-up"
+              data-aos-offset="15"
+              data-aos-delay="1050">
                       <h5 class="card-title">#Mentoria</h5>
                       <p>Vou te acompanhar por 3 meses!</p>
                     </div>

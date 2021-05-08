@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <Header></Header>
-    
     <WhatToExpect />
     <ForWho />
     <WhatWillYouLearning />

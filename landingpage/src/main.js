@@ -6,6 +6,13 @@ import store from './store'
 
 import './assets/sass/app.sass'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+  once: true
+});
+
 Vue.config.productionTip = false
 
 new Vue({

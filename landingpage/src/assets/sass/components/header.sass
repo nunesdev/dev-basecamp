@@ -2,12 +2,37 @@ header
   background: url('/svg/hexagon-dark.svg')
   background-repeat: no-repeat
   background-size: contain
+  nav
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    padding-right: calc((100% - 1120px))
+    padding-bottom: 20px
+    a
+      font-family: 'Roboto', sans-serif
+      text-decoration: none
+      color: white
+      font-size: 1.8em
+      font-weight: 500
+      padding: 0px 15px
+      &.sigin
+        margin-left: 30px
+        border: 1px solid rgb(255, 255, 255)
+        padding: 10px 16px
+        border-radius: 6px
+        &:hover
+          background-color:#5659db
+          color: $white
+
   .basecamp
     color: $white
     font-size: 6em
-    display: inline-flex
-    position: relative
-    bottom: -50px
+    
+    position: fixed
+    top: 10px
+    left: 10px
+    width: 300px
+    z-index: 1
     background: #5659db
     border-radius: 6px
     padding: 10px
