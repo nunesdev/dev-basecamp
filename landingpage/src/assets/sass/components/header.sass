@@ -14,27 +14,29 @@ header
       color: white
       font-size: 1.8em
       font-weight: 500
-      padding: 0px 15px
+      padding: 0px 10px
+      cursor: pointer
       &.sigin
         margin-left: 30px
         border: 1px solid rgb(255, 255, 255)
         padding: 10px 16px
         border-radius: 6px
-        &:hover
+        &:hover, &.active
           background-color:#5659db
           color: $white
+        &.active
+          &:hover 
+            background-color: darken(#5659db, 5%)
+            color: $white
 
+  
   .basecamp
     color: $white
     font-size: 6em
-    
-    position: fixed
-    top: 10px
-    left: 10px
-    width: 300px
-    z-index: 1
-    background: #5659db
+    width: fit-content
     border-radius: 6px
+    z-index: 1
+    background: #2d2e76
     padding: 10px
     small
       display: flex

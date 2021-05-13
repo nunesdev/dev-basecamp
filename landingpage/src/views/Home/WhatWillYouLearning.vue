@@ -1,5 +1,5 @@
 <template>
-  <section class="content pt-5 whatwillyoulearning" data-aos="fade-left"
+  <section id="WhatWillYouLearning" class="content pt-5 whatwillyoulearning" data-aos="fade-left"
               data-aos-offset="15"
               data-aos-delay="850">
     <div class="title">

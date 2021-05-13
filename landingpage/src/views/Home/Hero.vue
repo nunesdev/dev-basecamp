@@ -1,15 +1,22 @@
 <template>
   <section class="content pt-5">
-    <nav data-aos="fade-left"
+    <div class="row">
+      <div class="col-3">
+        <h3 class="basecamp"> <span>_init(DEV) </span> <small>BASECAMP 1.0.0</small></h3>
+      </div>
+      <div class="col-8">
+        <nav data-aos="fade-left"
               data-aos-offset="15"
               data-aos-delay="450">
       
-      <router-link :to="{name:'Register'}" class="video-blocked-content">O que esperar</router-link>
-      <router-link :to="{name:'Register'}" class="video-blocked-content">Pra quem é</router-link>
-      <router-link :to="{name:'Register'}" class="video-blocked-content">Você vai aprender</router-link>
-      <router-link :to="{name:'Register'}" class="video-blocked-content">Quem sou eu</router-link>
-      <router-link :to="{name:'Register'}" class="sigin">Inscreva-se agora</router-link>
+      <a v-scroll-to="'#WhatToExpect'" class="navigation">O que esperar</a>
+      <a v-scroll-to="'#ForWho'" class="navigation">Pra quem é</a>
+      <a v-scroll-to="'#WhatWillYouLearning'" class="navigation">Você vai aprender</a>
+      <a v-scroll-to="'#WhoAmi'" class="navigation">Quem sou eu</a>
+      <a v-scroll-to="'#SignUp'" class="sigin active">Inscreva-se agora</a>
     </nav>
+      </div>
+    </div>
     
     <div class="hero">
       <section>
@@ -18,7 +25,7 @@
               data-aos-delay="250">
           Participe de um basecamp de programação!  <br/><span class="text-green b">100% gratuito</span> e <span class="text-green b">imersivo!</span>
         </h1>
-        <button class="btn btn-primary call-to-action"
+        <button v-scroll-to="'#SignUp'" class="btn btn-primary call-to-action"
         data-aos="fade-up"
               data-aos-offset="15"
               data-aos-delay="350">INSCREVA-SE AGORA</button>
@@ -31,3 +38,14 @@
     
   </section>
 </template>
+<script>
+
+export default {
+  mounted() {
+    
+  },
+  methods: {
+
+  }
+}
+</script>
