@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf7125dd55616ec3d300",
-    "url": "/css/app.f1e25e04.css"
+    "revision": "4e2f8228e8928a5fa0f6",
+    "url": "/css/app.902989dd.css"
   },
   {
-    "revision": "01bdffba1100ed5e501b",
+    "revision": "722c159120e8d0799ba1",
     "url": "/css/chunk-vendors.0d9171ac.css"
   },
   {
@@ -80,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/next.png"
   },
   {
+    "revision": "905bf50c37d9bc1e0ca38fa5e7ff3d7b",
+    "url": "/img/online-course.png"
+  },
+  {
     "revision": "71cd3ec2e2b9aaeb131d94256bb3d2bb",
     "url": "/img/rocket.png"
   },
@@ -92,20 +96,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/video-files.png"
   },
   {
-    "revision": "a5c63b447b514acedfb16b81dd5bcbe9",
+    "revision": "caf03d29b06b0c710ec0ca11bfa0fdcc",
     "url": "/index.html"
   },
   {
-    "revision": "be464795c6720a02219c",
-    "url": "/js/about.2a74e7fe.js"
+    "revision": "1784d53a8a013794c91d",
+    "url": "/js/about.9f90a94b.js"
   },
   {
-    "revision": "bf7125dd55616ec3d300",
-    "url": "/js/app.e5bcff60.js"
+    "revision": "4e2f8228e8928a5fa0f6",
+    "url": "/js/app.ddf1e8db.js"
   },
   {
-    "revision": "01bdffba1100ed5e501b",
-    "url": "/js/chunk-vendors.7e28ea52.js"
+    "revision": "722c159120e8d0799ba1",
+    "url": "/js/chunk-vendors.2ed161c5.js"
   },
   {
     "revision": "833d8182528a24c31b14f9eb0af10af2",
@@ -116,7 +120,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/robots.txt"
   },
   {
-    "revision": "083e188c7dd308762ddd4540d4714f9c",
+    "revision": "1daee3aa71c86509f623aafe4de3882f",
     "url": "/svg/hexagon-dark.svg"
   },
   {
