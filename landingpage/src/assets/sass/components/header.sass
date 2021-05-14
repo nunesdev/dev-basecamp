@@ -36,7 +36,7 @@ header
     width: fit-content
     border-radius: 6px
     z-index: 1
-    background: #2d2e76
+    background: #5657af
     padding: 10px
     small
       display: flex
@@ -50,3 +50,43 @@ header
       display: flex
       color: $lightgreen
       font-weight: 600
+
+@media screen and ( max-width: 1024px  )
+  header
+    .basecamp
+      font-size: 4.5em
+    nav
+      justify-content: flex-start
+      a
+        font-size: 1.6em
+        &.sigin
+          display: block
+
+@media screen and ( max-width: 768px  )
+  header
+    .basecamp
+      font-size: 3.5em
+    nav
+      justify-content: flex-start
+      a
+        font-size: 1.7em
+        &.sigin
+          display: none
+  
+@media screen and ( max-width: 375px  )
+  header
+    .content 
+      padding: 0
+      
+    .basecamp
+      width: 100%
+      border-radius: 0
+      font-size: 1.8em
+      margin-bottom: 0
+    nav
+      display: none
+      justify-content: flex-start
+      a
+        font-size: 1.4em
+        &.sigin
+          display: none
