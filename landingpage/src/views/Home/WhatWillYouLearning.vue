@@ -22,14 +22,14 @@
     </p>
     <hr>
     <div class="row align-items-center">
-      <div class="col">
+      <div class="col-sm-12 col-md-6">
         <p> <b>INVESTIMENTO</b> <span class="price"> R$ 900,00</span> R$ 0,00</p>
       </div>
-      <div class="col">
+      <div class="col-sm-12 col-md-6">
         <p class="text-green b">#Javascript #Css3 #Html5 #Git #GitHub #VisualStudioCode #Terminal #Http #ApiRest #Json #Axios #XmlHttpRequest #Deploy #Homologacao #Producao</p>
         
       </div>
-      <div class="col">
+      <div class="col-sm-12 col-md-12 text-right tech">
         <img src="/img/js.png" width="54" height="54" alt="">
         <img src="/img/html.png" width="54" height="54" alt="">
         <img src="/img/css.png" width="54" height="54" alt="">

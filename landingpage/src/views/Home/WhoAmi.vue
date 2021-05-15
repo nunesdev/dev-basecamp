@@ -6,10 +6,10 @@
       Quem sou eu ?
     </div>
     <div class="row align-items-center"> 
-      <div class="col">
+      <div class="col-sm-12 col-md-6">
         <div class="mask"></div>
       </div>
-      <div class="col">
+      <div class="col-sm-12 col-md-6">
         <p>
           Me chamo Bruno Reis, sou desenvolvedor há 15 anos, mas profissionalmente há 10 anos. <br/>
           Passei por empresas, como <b class="text-green">UOL</b>, atendi clientes como <b class="text-green">Sony, Microsoft, Toyota</b> entre outros. E hoje

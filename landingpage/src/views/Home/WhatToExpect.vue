@@ -12,7 +12,7 @@
       <div class="row">
         <div class="col-12">
           <div class="row">
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
               <div class="card">
                 <div class="row g-0 align-items-center">
                   <div class="col-md-4 text-center">
@@ -34,7 +34,7 @@
               </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
               <div class="card">
                 <div class="row g-0 align-items-center">
                   <div class="col-md-4 text-center">
@@ -50,7 +50,7 @@
               </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
               <div class="card">
                 <div class="row g-0 align-items-center">
                   <div class="col-md-4 text-center">
@@ -66,7 +66,7 @@
               </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
               <div class="card">
                 <div class="row g-0 align-items-center">
                   <div class="col-md-4 text-center">
@@ -81,7 +81,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
               <div class="card">
                 <div class="row g-0 align-items-center">
                   <div class="col-md-4 text-center">
@@ -96,7 +96,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
               <div class="card">
                 <div class="row g-0 align-items-center">
                   <div class="col-md-4 text-center" >
@@ -111,7 +111,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
               <div class="card">
                 <div class="row g-0 align-items-center">
                   <div class="col-md-4 text-center" >

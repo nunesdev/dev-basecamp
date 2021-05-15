@@ -1,19 +1,19 @@
 <template>
-  <section id="SignUp" class="content pt-5 signup text-center">
+  <section id="SignUp" class="content pt-5 signup text-center d-flex align-items-center justify-content-center">
     
-    <div v-if="!lead">
+    <div v-if="!lead" class="col">
       <div class="title">
         Inscreva-se agora
       </div>
     
       <div class="row align-items-center justify-content-center pt-5"> 
-        <div class="col-6">
+        <div class="col-sm-12 col-md-8 col-lg-5">
           <form action="" class="form-horizontal" @submit="onSubmit">
             <div class="form-group">
               <input type="text" name="name" v-model="name" placeholder="Digite seu nome" class="form-control" required>
             </div>
             <div class="form-group">
-              <input type="email" name="email" v-model="email" placeholder="Digite seu meu e-mail" class="form-control" required>
+              <input type="email" name="email" v-model="email" placeholder="Digite seu melhor e-mail" class="form-control" required>
             </div>
             <div class="form-group">
             <button  class="btn btn-block btn-primary submit">Liberar Acesso</button>
@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <div v-if="lead" >
+    <div v-if="lead" class="col">
       <div class="title">
         Você já está cadastrado! <br/>Obrigado!
       </div>
@@ -35,7 +35,7 @@
         <div class="col-6">
           
         </div>
-        <div class="col-6">
+        <div class="col-sm-12 col-md-6">
           <Timeline />
         </div>
       </div>
