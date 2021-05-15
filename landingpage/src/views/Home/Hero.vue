@@ -5,16 +5,13 @@
         <h3 class="basecamp"> <span>_init(DEV) </span> <small>BASECAMP 1.0.0</small></h3>
       </div>
       <div class="col-md-9 col-lg-9 col-xl-8">
-        <nav data-aos="fade-left"
-              data-aos-offset="15"
-              data-aos-delay="450">
-      
-      <a v-scroll-to="'#WhatToExpect'" class="navigation">O que esperar</a>
-      <a v-scroll-to="'#ForWho'" class="navigation">Pra quem é</a>
-      <a v-scroll-to="'#WhatWillYouLearning'" class="navigation">Você vai aprender</a>
-      <a v-scroll-to="'#WhoAmi'" class="navigation">Quem sou eu</a>
-      <a v-scroll-to="'#SignUp'" class="sigin active">Inscreva-se agora</a>
-    </nav>
+        <nav>
+          <a v-scroll-to="'#WhatToExpect'" class="navigation">O que esperar</a>
+          <a v-scroll-to="'#ForWho'" class="navigation">Pra quem é</a>
+          <a v-scroll-to="'#WhatWillYouLearning'" class="navigation">Você vai aprender</a>
+          <a v-scroll-to="'#WhoAmi'" class="navigation">Quem sou eu</a>
+          <a v-scroll-to="'#SignUp'" class="sigin active">Inscreva-se agora</a>
+        </nav>
       </div>
     </div>
     

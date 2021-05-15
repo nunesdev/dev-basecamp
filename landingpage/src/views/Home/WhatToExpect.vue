@@ -1,7 +1,5 @@
 <template>
-  <section id="WhatToExpect" class="content pt-5" data-aos="fade-left"
-              data-aos-offset="15"
-              data-aos-delay="650">
+  <section id="WhatToExpect" class="content pt-5">
     <div class="title">
       O que esperar do Basecamp?
     </div>

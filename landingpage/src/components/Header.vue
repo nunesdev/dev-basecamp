@@ -1,6 +1,5 @@
 <template>
-  <header class="pt-md-2 pt-sm-0 row align-items-center">
-      
+  <header class="pt-md-2 pt-sm-0">
       <Hero />
   </header>
 </template>

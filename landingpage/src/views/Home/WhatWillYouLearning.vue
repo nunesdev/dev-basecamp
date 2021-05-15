@@ -1,7 +1,5 @@
 <template>
-  <section id="WhatWillYouLearning" class="content pt-5 whatwillyoulearning" data-aos="fade-left"
-              data-aos-offset="15"
-              data-aos-delay="850">
+  <section id="WhatWillYouLearning" class="content pt-5 whatwillyoulearning">
     <div class="title">
       O que você vai aprender
     </div>
