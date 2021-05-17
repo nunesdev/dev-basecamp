@@ -100,7 +100,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/video-files.png"
   },
   {
-    "revision": "b6f5006a156cd4945042f2f14217f4db",
+    "revision": "a6ae0274b79d80540a4653a2ec81905d",
     "url": "/index.html"
   },
   {
