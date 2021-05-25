@@ -1,0 +1,135 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background-color: #46529d;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Inclui o preenchimento e a borda na largura e altura total de um elemento */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Defina o estilo do cabeçalho */
+.header {
+  padding: 30px 0;
+  color: white;
+  font-size: 18px;
+}
+
+/* Limpe os flutuadores após o cabeçalho */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header h2 {
+  font-weight: 300;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 24%;
+  background: #2ebaee;
+  color: #fff;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  margin-left: 1%;
+
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+
+
+
+/* Remova as margens e preenchimento da lista */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Estilize os itens da lista */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #e5e7f3;
+  font-size: 18px;
+  transition: 0.2s;
+  line-height: 50px;
+  /* tornar os itens da lista não selecionáveis */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Cor de fundo mais escura ao passar o mouse no elemento */
+ul li:hover {
+  background: #bac2f0;
+}
+
+/* Quando clicado, adiciona uma cor de fundo e risca o texto */
+ul li.checked {
+  background: #2ebaee;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Adicione uma marca de "verificação" ao clicar em */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Estiliza o botão Fechar */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #2a336d;
+  color: white;
+}
